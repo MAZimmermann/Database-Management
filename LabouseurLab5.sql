@@ -23,7 +23,7 @@ FROM Customers
 WHERE cid NOT IN (
 	SELECT cid
 	FROM Orders
-	WHERE aid = 'a03' -- forgot to include this line
+-- edit after confusion with lab4 recap
 );
 --
 
